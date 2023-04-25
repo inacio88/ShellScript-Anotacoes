@@ -406,3 +406,17 @@ echo "Vc eh $name"
 sleep 1
 
 echo "E esta em $name2"
+
+
+### ------------------------------------------------
+## Random
+
+#!/bin/bash
+
+echo $RANDOM
+
+echo "Digite um valor: "
+
+read VALOR
+
+echo $(($RANDOM % $VALOR))
