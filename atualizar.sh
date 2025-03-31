@@ -1,6 +1,4 @@
 #!/bin/bash
-echo "UPDATE FLATPAK"
-flatpak update -y
 echo "UPDATE"
 sudo apt-get update
 echo "UPGRADE"
@@ -13,3 +11,5 @@ echo "CLEAN"
 sudo apt-get clean
 echo "AUTOCLEAN"
 sudo apt-get autoclean
+echo "UPDATE FLATPAK"
+flatpak update -y
