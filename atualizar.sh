@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "UPDATE FLATPAK"
+flatpak update -y
 echo "UPDATE"
 sudo apt-get update
 echo "UPGRADE"
